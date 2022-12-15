@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+   
+
+    background-Size: cover;
+    background-position:center;
+}
+.navbar
+{
+    width: 85%;
+    margin:auto;
+    padding: 25px;
+    display: flex;
+    align-items:center;
+    justify-self:space-between;
+    padding-left: 700px;
+    background-color: rgb(31, 31, 31);
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 60px;
+    position:relative;
+    
+
+}
+.navbar ul li a{
+    text-emphasis: none;
+    color:#fff;
+    text-transform: uppercase;;
+    text-decoration:none;
+}
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width:0%;
+    background:rgb(252, 252, 252);
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover:after{
+    width:100%;
+}
+.head
+{
+    text-align: center;
+    background-color: rgb(241, 162, 59);
+
+}
+
+h1
+{
+    Color:black;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+}  
+.pic
+{
+    
+    border-radius: 8px;
+    text-align: center;
+    height: 600px;
+
+}
+.header
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 170px;
+}
+.header2{
+    margin: 10px;
+
+}
+
+.headpic
+{
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 700px;
+   
+}
+.text
+{
+    padding-top: 80px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.abstract
+{
+    
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+    padding-left: 250px;
+    
+}
+h3
+{
+    padding-left: 150px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button
+{
+    
+    width: 200px;
+    padding:20px 0px;
+    margin: 20px 100px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2e3131;
+    background:transparent;
+    color:#fff;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+}
+span{
+
+    background:#353939;
+    height: 100%;
+    width: 100%;
+    border-radius:25px;
+    position: absolute;
+    left:0;
+    bottom: 0; 
+    z-index: -1;
+    transition:0.5s;
+}
+button:hover span{
+    
+    width: 100%;
+}
+button:hover
+{
+    border: none;
+}
+#peopertiers
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 30px;
+    margin: 20px 10px;
+}
+#whyblockchain
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#dis-advantages
+{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Style.css"rel="stylesheet"type="text/css">
+</head>
+    <body>
+        <div class="banner">
+           <div class="navbar">
+             <ul>
+                
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Crypto</a></li>
+                <li><a href="#">History </a></li>
+                <li><a href="#">How does it work</a></li>
+                <li><a href="#">About us</a></li>
+
+             </ul>
+           </div>
+       
+             <div class="head">
+            
+                <h1 class = "text">How does Blockchain work</h1>
+                <img class= "headpic"src="BoxFoto.PNG" alt="">
+                <br>
+                <br>
+                <br>
+                <h3 >Abstract</h3> 
+                <p class="abstract"> To put it simply, blockchain is a distributed database that records digital transactions.<br>  The blockchain is a distributed ledger in which each user's transaction history is recorded in <br>chronological order and could be altered by a consensus of all users</p> 
+                <br>
+                <br>
+                <div>
+                    <button onclick="toggle()" class="button" ><span></span>PEOPERTIES</button>
+                    <button onclick="toggle2()" class="button"><span></span>WHY Blockchain</button>
+                    <button onclick="toggle3()"  class="button"><span></span>DIS/ADVANTAGES</button>
+                </div>
+                
+                <dlt id="peopertiers">
+                    <li >Blockchain does not require a central party to control it. The network controls itself.</li>
+                    <li>Key applications include: financial transactions, supply chain tracking, stock market trading and elections.</li>
+                    <li>The very first block of a blockchain is called a "genesis block".</li>
+                    <li>The data of a blockchain is always up to date, so there are no outdated data records.</li>
+                    <li>The most common blockchain programming languages are C++ and Java.</li>
+                </dlt>
+
+                <div id="whyblockchain">
+
+                <h2>Open ledger</h2>
+                <p>Blockchain is an open ledger <br> that several parties can access <br>at once. One of its primary benefits<br>is that the recorded information is<br> hard to change without an agreement <br>from all parties involved. IBM explained <br>that each new record becomes <br> a block with a unique, identifying hash.</p>
+                <br>
+                <br>
+
+                </div>
+
+                <dlt id="dis-advantages"> 
+                    <li>Advantages</li>
+                        <dd> financial inclusion potential</dd>
+                        <dd>decentralization</dd>
+                        <dd>transparency</dd>
+                        <dd>reduced transaction fees</dd>
+                    <li>dis-advantages</li>
+                        <dd>climate costs</dd>
+                        <dd>regulation</dd>
+                        <dd>regulation</dd>
+                        <dd>illegal activity</dd>
+                        <dd>costs of implementation.</dd>
+                </dlt>
+                 
+                
+            </div>
+            <br> 
+           
+            
+        
+        </div>
+       
+        <script>
+
+            var a;
+            
+            function toggle(){
+                
+                if(a==1) 
+                {
+                    document.getElementById("peopertiers").style.display="inline";
+                    return a = 0;
+                }
+
+                else
+                {
+                    document.getElementById("peopertiers").style.display="none";
+                    return a =1;
+                }
+            }
+
+            var x;
+            function toggle2()
+            {
+                if(x==1)
+                {
+                    document.getElementById("whyblockchain").style.display="inline";
+                    return x =0;
+                }
+
+                else
+                {
+                    document.getElementById("whyblockchain").style.display="none";
+                    return x =1;
+                }
+            
+            }
+            var y;
+            function toggle3()
+            {
+                if(y==1)
+                {
+                    document.getElementById("dis-advantages").style.display="inline";
+                    return y=0;
+                }
+                else
+                {
+                document.getElementById("dis-advantages").style.display="none";
+                return y=1;
+                }
+        }
+        </script>
+            
+
+    </body>
+      
+</html>
